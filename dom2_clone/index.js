@@ -35,6 +35,15 @@ for (let i = 0; i < 3; i++) {
     playAnimation(butonText);
   });
 }
+
+// creating keypress event listener
+
+document.addEventListener("keypress", function (event) {
+  let butonText = event.key;
+  playAudio(butonText);
+  playAnimation(butonText);
+});
+
 // creating a audio play function
 
 function playAudio(butonText) {
