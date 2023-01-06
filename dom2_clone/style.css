@@ -1,0 +1,14 @@
+.myButton{
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+    background-color: aqua;
+    border: none;
+    border-radius: 3px;
+}
+
+.animation{
+    background-color:tomato;
+    box-shadow: 0 15px 15px 0 gray;
+    border:2px solid yellow;
+}
